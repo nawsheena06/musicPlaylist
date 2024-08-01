@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     
     let RAIN = URL(string: "https://open.spotify.com/playlist/4wnBpsbruw97bzClrF6fGV?si=62965678c6cc4954")!
@@ -35,7 +34,7 @@ struct ContentView: View {
 
                             .cornerRadius(20.0)
                                                     .padding(30.0)
-                    }
+                    }//Rain
                     Link(destination:Brownnoise) {
                         Image("brownNoise")
                             .resizable(resizingMode: .stretch)
@@ -43,34 +42,22 @@ struct ContentView: View {
                             .cornerRadius(20.0)
                             .padding(30.0)
 
-                    }
+                    }// Brown Noise
                     Link(destination:RNB) {
                         Image("rnb")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(20.0)
                             .padding(30.0)
-                    }
+                    }// RNB
                     Link(destination:DarkAcademia) {
                         Image("darkAcademia")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(20.0)
                             .padding(30.0)
-                    }
-                    
-                    
-
-
-
-                                    
-                                
-                            
-                            
-                            
+                    }//Dark Academia
         
-                    
-                    
                 } //Vstack
                 
             } //navstack

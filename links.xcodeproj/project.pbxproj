@@ -14,6 +14,7 @@
 		BD88D6C72C590E8D00153A23 /* linksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D6C62C590E8D00153A23 /* linksTests.swift */; };
 		BD88D6D12C590E8D00153A23 /* linksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D6D02C590E8D00153A23 /* linksUITests.swift */; };
 		BD88D6D32C590E8D00153A23 /* linksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D6D22C590E8D00153A23 /* linksUITestsLaunchTests.swift */; };
+		BD88D7182C5A3E7600153A23 /* infoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D7172C5A3E7600153A23 /* infoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD88D6CC2C590E8D00153A23 /* linksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD88D6D02C590E8D00153A23 /* linksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linksUITests.swift; sourceTree = "<group>"; };
 		BD88D6D22C590E8D00153A23 /* linksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD88D7172C5A3E7600153A23 /* infoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD88D6B52C590E8C00153A23 /* linksApp.swift */,
 				BD88D6B72C590E8C00153A23 /* ContentView.swift */,
+				BD88D7172C5A3E7600153A23 /* infoPage.swift */,
 				BD88D6B92C590E8D00153A23 /* Assets.xcassets */,
 				BD88D6BB2C590E8D00153A23 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD88D6B82C590E8C00153A23 /* ContentView.swift in Sources */,
+				BD88D7182C5A3E7600153A23 /* infoPage.swift in Sources */,
 				BD88D6B62C590E8C00153A23 /* linksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
